@@ -1,0 +1,643 @@
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-tap-highlight-color: transparent;
+}
+html{
+	width: 100%;
+	/* height: 100%; */
+	font-family: 'Helvetica Neue',Helvetica,'PingFang SC','Hiragino Sans GB',Arial,sans-serif;
+}
+body {
+	width: 100%;
+	/* height: 100%; */
+	/* max-width: 750px; */
+	margin: 0 auto;
+    font-size: 10px;
+    position: relative!important;
+    top: 0!important;
+    transition: all 0.3s;
+}
+body.show {
+    opacity: 1;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    -webkit-tap-highlight-color: none;
+}
+a:hover,a:active,a:link{
+    color: initial;
+}
+.clearfix:after,
+.clearfix:before {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+img{
+	display: block;
+	/* margin: 0 auto; */
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	width: 100%;
+}
+input, textarea, a, div, button, select {
+    border: 0;
+    outline: 0;
+}
+.absolute{
+	position: absolute;
+}
+.relative{
+	position: relative;
+}
+.row{
+    display: flex;
+	display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+/* 水平两边 垂直靠上 */
+.row-between-start{
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+/* 水平靠后 垂直居中 */
+.row-end-center{
+	display: flex;
+	display: -webkit-flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+/* 水平靠前 垂直居中 */
+.row-start-center{
+	display: flex;
+	display: -webkit-flex;
+	justify-content: start;
+	align-items: center;
+}
+/* 水平环绕 垂直居中 */
+.row-around-center{
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-around;
+	align-items: center;
+}
+/* 水平两边 垂直居中 */
+.row-between-center{
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.col{
+    display: flex;
+	display: -webkit-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* 垂直居中水平靠后  */
+.col-center-end{
+    display: flex;
+	display: -webkit-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+/* 垂直靠上水平居中  */
+.col-start-center{
+    display: flex;
+	display: -webkit-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.toast{
+    position: fixed;
+    padding: 0.15rem 0.3rem;
+    font-size: 0.26rem;
+    color: #fff;
+    background: #000;
+    border-radius: 0.1rem;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999999;
+    display: none;
+}
+/* 移动端 rem弹窗类 */
+/* 弹窗 */
+.pop{
+    width: 7.5rem;
+	height: 100%;
+    /* position: fixed; */
+	top: 0;
+	left: 50%;
+	margin-left: -3.75rem;
+    position: absolute;
+    z-index: 101;
+	background-color: rgba(0,0,0,.7);
+	filter: alpha(opacity=100);
+}
+.pop-pc{
+    width: 100%;
+	height: 100%;
+    position: fixed;
+	top: 0;
+	left: 50%;
+	margin-left: -50%;
+    /* position: absolute; */
+    z-index: 101;
+	background-color: rgba(0,0,0,.7);
+	filter: alpha(opacity=100);
+}
+/* 关闭按钮 */
+.close{
+    display: block;
+	position: absolute;
+	cursor: pointer;
+}
+.close img{
+    width: 100%;
+}
+/* 弹窗内包 */
+.pop-wrap{
+	position: absolute;
+	/* width: 6.2rem; */
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+}
+/* 表单错误提示 */
+/* .form-wrap .err-tip{
+	height: 0.3rem;
+	line-height: 0.3rem;
+	color: #ff0000;
+	font-size: 0.18rem;
+} */
+/* 发送验证码 */
+.fycode{
+	
+}
+.fycode input{
+	
+}
+.getcode{
+   
+}
+.sendcode{
+	
+}
+.tcaptcha-transform{
+	
+}
+/* 遮罩 */
+.Layer.on {
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    z-index: 100;
+}
+.Layer {
+    position: fixed;
+    top: -10%;
+    left: 50%;
+    margin-left: -3.75rem;
+    width: 7.5rem;
+    height: 120%;
+    background: rgba(0,0,0,.8);
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    z-index: -1;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+/* 视频弹窗遮罩层 */
+.videoLay{
+	position: fixed;
+	z-index: 100;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.60);
+}
+.videoLay .layContent{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.videoLay .layContent .video{
+	width: 60%;
+	/* height: 4.62px; */
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+}
+/* 输入框 */
+input::placeholder{
+    color: #aa9666;
+}
+textarea::placeholder{
+    color: #aa9666;
+}
+input::-webkit-input-placeholder {
+	color: #aa9666;
+}
+
+/* input type number 隐藏上下加减符号 */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+}
+input[type='number'] {
+  -moz-appearance: textfield !important;
+}
+/* 微信终端提示 */
+
+.loadTipPop{
+    width: 7.5rem;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    position: fixed;
+    left: 50%;
+    margin-left: -3.75rem;
+    top: 0;
+    z-index: 9999;
+    display: none;
+}
+.loadTipPop img{
+	position: absolute;
+	width: 50%;
+	right: 0.2rem;
+	top: 0.1rem;
+}
+/*单个确定框  + 回调*/
+.m-mask-c {
+	width: 100%;
+	height: 100%;
+	background-color: #000000;
+	opacity: 0.6;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	z-index: 100;
+}
+
+.m-mask-c-1 {
+	width: 100%;
+	height: 100%;
+	background-color: #000000;
+	opacity: 0.6;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	z-index: 101;
+}
+
+.confirm-box {
+	width: 70%;
+	position: fixed;
+	top: 5.6rem;
+	left: 15%;
+	background-color: #FFFFFF;
+	height: auto;
+	border-radius: 6px;
+	z-index: 102;
+}
+
+.u-confirm-h,
+.u-confirm-p {
+	text-align: center;
+}
+
+.u-confirm-h {
+	height: 1.154rem;
+	line-height: 1.154rem;
+	font-size: 16px;
+	border-bottom: solid 1px #f2f2f2;
+}
+
+.u-confirm-p {
+	line-height: 1rem;
+	font-size: 14px;
+	border-bottom: solid 1px #f2f2f2;
+}
+
+.u-confirm-btn {
+	display: block;
+	width: 100%;
+	height: 1.154rem;
+	line-height: 1.154rem;
+	color: #1d82ff;
+	font-size: 16px;
+	text-align: center;
+}
+/* 轉圈 */
+.rotateCircle{
+	animation: rotateCircle 5s infinite linear both;
+	-webkit-animation: rotateCircle 5s infinite linear both;
+}
+@keyframes rotateCircle{
+	from{-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+	to{-webkit-transform: rotate(360deg);transform: rotate(360deg);}
+}
+@-webkit-keyframes rotateCircle{
+	from{-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+	to{-webkit-transform: rotate(360deg);transform: rotate(360deg);}
+}
+/* 箭头上下 */
+/* animation: flight 2s ease infinite alternate both;
+-moz-animation: flight 2s ease infinite alternate both;
+-webkit-animation: flight 2s ease infinite alternate both;
+-o-animation: flight 2s ease infinite alternate both; */
+@keyframes flight{
+	0% {
+	    -webkit-transform: translateY(0px);
+	    -moz-transform: translateY(0px);
+	    -ms-transform: translateY(0px);
+	    -o-transform: translateY(0px);
+	    transform: translateY(0px);
+	    opacity: 0.2;
+	}
+	100% {
+	    -webkit-transform: translateY(-20px);
+	    -moz-transform: translateY(-20px);
+	    -ms-transform: translateY(-20px);
+	    -o-transform: translateY(-20px);
+	    transform: translateY(-20px);
+	    opacity: 0.6;
+	}
+}
+@-webkit-keyframes flight{
+	0% {
+	    -webkit-transform: translateY(0px);
+	    -moz-transform: translateY(0px);
+	    -ms-transform: translateY(0px);
+	    -o-transform: translateY(0px);
+	    transform: translateY(0px);
+	    opacity: 0.2;
+	}
+	100% {
+	    -webkit-transform: translateY(-20px);
+	    -moz-transform: translateY(-20px);
+	    -ms-transform: translateY(-20px);
+	    -o-transform: translateY(-20px);
+	    transform: translateY(-20px);
+	    opacity: 0.6;
+	}
+}
+/* 缩放 */
+/* .scal {
+    animation: scalable 0.3s ease-in-out 0s infinite alternate none;
+    -webkit-animation: scalable 0.3s ease-in-out 0s infinite alternate none;
+} */
+
+@-webkit-keyframes scalable{
+	0% {
+	    -webkit-transform: scale(0.9);
+	    -moz-transform: scale(0.9);
+	    -ms-transform: scale(0.9);
+	    -o-transform: scale(0.9);
+	    transform: scale(0.9);
+	    opacity: 1;
+	}
+	100% {
+	    -webkit-transform: scale(0.8);
+	    -moz-transform: scale(0.8);
+	    -ms-transform: scale(0.8);
+	    -o-transform: scale(0.8);
+	    transform: scale(0.8);
+	    opacity: 1;
+	}
+}
+@keyframes scalable{
+	0% {
+	    -webkit-transform: scale(0.9);
+	    -moz-transform: scale(0.9);
+	    -ms-transform: scale(0.9);
+	    -o-transform: scale(0.9);
+	    transform: scale(0.9);
+	    opacity: 1;
+	}
+	100% {
+	    -webkit-transform: scale(0.8);
+	    -moz-transform: scale(0.8);
+	    -ms-transform: scale(0.8);
+	    -o-transform: scale(0.8);
+	    transform: scale(0.8);
+	    opacity: 1;
+	}
+}
+/* 缩放 */
+@-webkit-keyframes flashzoom{
+    to{
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+		opacity: 0.8;
+    }
+}
+@keyframes flashzoom{
+    to{
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+		opacity: 0.8;
+    }
+}
+/*toast 样式*/
+
+.m-tiphtml-box {
+    position: fixed;
+	z-index: 100;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%);
+    border-radius: 0.2rem;
+    overflow: hidden;
+    white-space: nowrap;
+    -webkit-transform: translate(-50%);
+	font-size: 0;
+}
+
+.m-tiphtml-box .tip-box-op0 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: #000000;
+    opacity: 0.7;
+    z-index: -1;
+	font-size: 18px;
+}
+
+.m-tiphtml-box .tip-box-op1 {
+    padding: 0.15rem 0.3rem;
+    font-size: 0.26rem;
+    color: #FFFFFF;
+}
+
+/*toast 样式 -- pc*/
+
+.pc-tiphtml-box {
+    position: fixed;
+	z-index: 3;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%);
+    border-radius: 2px;
+    overflow: hidden;
+    white-space: nowrap;
+    -webkit-transform: translate(-50%);
+	font-size: 0;
+}
+
+.pc-tiphtml-box .tip-box-op0 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: #000000;
+    opacity: 0.8;
+    z-index: -1;
+	font-size: 14px;
+}
+
+.pc-tiphtml-box .tip-box-op1 {
+    padding: 8px 15px;
+    font-size: 14px;
+    color: #FFFFFF;
+	border-radius: 5px;
+}
+/*  */
+/* .slogan{
+	width: 800px;
+	height: 516px;
+	background-image: url(../image/sloganbl.png);
+	background-repeat: no-repeat;
+	position: relative;
+	
+	-webkit-animation: framesflash 6s steps(50,end) infinite normal none;
+	animation: framesflash 6s steps(50,end) infinite normal none;
+} */
+/* 帧动画 */
+@keyframes framesflash {
+	
+	from{
+		background-position: 0 0;
+	}
+	to{
+		background-position: 0 -25000px ;
+	}
+}
+@-webkit-keyframes framesflash {
+	from{
+		background-position: 0 0;
+	}
+	to{
+		background-position: 0 -25000px ;
+	}
+}
+
+/* 羽毛飘落 */
+.maple{
+	position: absolute;
+}
+.rotate1{
+    animation: rotate1 100s 0s linear infinite both;
+}
+@keyframes rotate1{
+    0%{
+    	transform: rotate(0deg);
+    }
+    100%{
+    	transform: rotate(3600deg);
+    }
+}
+@-webkit-keyframes rotate1{
+    0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(3600deg);
+	}
+}
+.rotate2{
+    animation: rotate2 80s 0s linear infinite both;
+}
+@keyframes rotate2{
+    0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(3600deg);
+	}
+}
+@-webkit-keyframes rotate2 {
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(3600deg);
+	}
+}
+.rotate3{
+    animation: rotate3 60s 0s linear infinite both;
+}
+@keyframes rotate3{
+    0%{
+    	transform: rotate(0deg);
+    }
+    100%{
+    	transform: rotate(3600deg);
+    }
+}
+@-webkit-keyframes rotate3 {
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(3600deg);
+	}
+}
+.rotate4{
+    animation: rotate4 40s 0s linear infinite both;
+}
+@keyframes rotate4{
+    0%{
+    	transform: rotate(0deg);
+    }
+    100%{
+    	transform: rotate(3600deg);
+    };
+}
+@-webkit-keyframes rotate4 {
+	0%{
+		transform: rotate(0deg);
+	}
+	
+	100%{
+		transform: rotate(3600deg);
+	};
+}

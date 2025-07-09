@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.cookies-pop {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 999999;
+    display: none;
+}
+
+.cookies {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background: #262626;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: "Arial Narrow";
+    color: #fff;
+    display: none;
+    z-index: 999999;
+}
+
+.cookies a {
+    color: #fff;
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.cookie-tip {
+    width: 60%;
+    font-size: 18px;
+}
+
+.cookie-policy, .accept {
+    padding: 4px 15px;
+    background: #4874cb;
+}
+
+.cookie-policy {
+    margin: 0 30px 0 50px;
+}
+
+.cookies-box {
+    width: 1000px;
+    height: 600px;
+    position: fixed;
+    top: 50%;
+    margin-top: -300px;
+    left: 50%;
+    margin-left: -500px;
+    z-index: 99999;
+}
+
+.cookies-box img {
+    display: block;
+    width: 952px;
+}
+
+.cookies-cont {
+    width: 950px;
+    height: 502px;
+    border: 1px solid #979797;
+    background: #fff;
+}
+
+.cookie-nav {
+    width: 260px;
+    margin-left: 40px;
+    margin-top: 30px;
+    color: #000;
+    float: left;
+}
+
+.cookie-nav-list {
+    height: 60px;
+    border: 1px solid #979797;
+    font-size: 18px;
+    text-indent: 20px;
+    line-height: 60px;
+    cursor: pointer;
+}
+
+.cookie-nav-list.act {
+    background: #88bd35;
+    color: #fff;
+}
+
+.cookies-desc {
+    width: 560px;
+    height: 380px;
+    padding: 20px 30px;
+    float: left;
+    margin-left: -1px;
+    border: 1px solid #979797;
+    margin-top: 30px;
+}
+
+.cookies-cont-title {
+    font-size: 18px;
+    color: #333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cookies-cont-title span, .cookies-desc-ul p, .cookies-desc-ul a {
+    font-size: 18px;
+}
+
+.cookies-desc p {
+    color: #999;
+    margin: 20px 0;
+    line-height: 34px;
+}
+
+.cookies-desc a {
+    color: #4874cb;
+    text-decoration: underline;
+}
+
+.cookies-desc .hide {
+    display: none;
+}
+
+.cookies-close {
+    width: 48px;
+    height: 48px;
+    position: fixed;
+    left: 50%;
+    margin-left: 452px;
+    top: 50%;
+    margin-top: -300px;
+    cursor: pointer;
+    z-index: 99999999;
+}
+
+.cookie-close {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    left: 50%;
+    margin-left: 452px;
+    cursor: pointer;
+}
+
+.cookie-close img {
+    display: block;
+}
