@@ -1,0 +1,228 @@
+{
+    "code": 0,
+    "msg": "success",
+    "data": {
+        "list_news_type": [
+            {
+                "typeid": 558,
+                "typename": "LATEST"
+            },
+            {
+                "typeid": 556,
+                "typename": "NEWS"
+            },
+            {
+                "typeid": 555,
+                "typename": "EVENTS"
+            },
+            {
+                "typeid": 554,
+                "typename": "GUIDES"
+            },
+            {
+                "typeid": 557,
+                "typename": "SUPPORT"
+            }
+        ],
+        "list_news": {
+            "554": [
+                {
+                    "aid": 8570,
+                    "title": "Dinah's Classroom — Wilds Guide",
+                    "updatetime": "10-23",
+                    "typeid": 554,
+                    "typename": "GUIDES"
+                },
+                {
+                    "aid": 8344,
+                    "title": "The Versatile Inventory",
+                    "updatetime": "10-23",
+                    "typeid": 554,
+                    "typename": "GUIDES"
+                },
+                {
+                    "aid": 8343,
+                    "title": "Rookies' Handbook — Home City Guide",
+                    "updatetime": "10-23",
+                    "typeid": 554,
+                    "typename": "GUIDES"
+                },
+                {
+                    "aid": 8334,
+                    "title": "iOS - How to Install Wartune Lite",
+                    "updatetime": "10-23",
+                    "typeid": 554,
+                    "typename": "GUIDES"
+                }
+            ],
+            "555": [
+                {
+                    "aid": 8571,
+                    "title": "V1.11 Strategy Guides Collection Contest",
+                    "updatetime": "04-12",
+                    "typeid": 555,
+                    "typename": "EVENTS"
+                },
+                {
+                    "aid": 8558,
+                    "title": "Fashion Contest Result Announcement",
+                    "updatetime": "03-29",
+                    "typeid": 555,
+                    "typename": "EVENTS"
+                },
+                {
+                    "aid": 8550,
+                    "title": "New Clothing Preview | Shadow Rose",
+                    "updatetime": "03-20",
+                    "typeid": 555,
+                    "typename": "EVENTS"
+                },
+                {
+                    "aid": 8519,
+                    "title": "A Coleta de Recompensas de Eventos Beta",
+                    "updatetime": "02-01",
+                    "typeid": 555,
+                    "typename": "EVENTS"
+                },
+                {
+                    "aid": 8340,
+                    "title": "FOLLOW US on Social Media for Rewards!",
+                    "updatetime": "04-13",
+                    "typeid": 555,
+                    "typename": "EVENTS"
+                }
+            ],
+            "556": [
+                {
+                    "aid": 8872,
+                    "title": "Official Action Announcement",
+                    "updatetime": "03-18",
+                    "typeid": 556,
+                    "typename": "NEWS"
+                },
+                {
+                    "aid": 8865,
+                    "title": "Official Action Announcement",
+                    "updatetime": "03-13",
+                    "typeid": 556,
+                    "typename": "NEWS"
+                },
+                {
+                    "aid": 8842,
+                    "title": "Wartune Ultra Patch V2.4 Official Launch",
+                    "updatetime": "02-12",
+                    "typeid": 556,
+                    "typename": "NEWS"
+                },
+                {
+                    "aid": 8836,
+                    "title": "Enjoy Top-up Discount on JollyMax",
+                    "updatetime": "02-08",
+                    "typeid": 556,
+                    "typename": "NEWS"
+                },
+                {
+                    "aid": 8813,
+                    "title": "Official Action Announcement",
+                    "updatetime": "01-08",
+                    "typeid": 556,
+                    "typename": "NEWS"
+                }
+            ],
+            "557": [
+                {
+                    "aid": 8588,
+                    "title": "Solution to Login Failure with Facebook on iOS Devices",
+                    "updatetime": "05-07",
+                    "typeid": 557,
+                    "typename": "SUPPORT"
+                }
+            ],
+            "558": [
+                {
+                    "aid": 8872,
+                    "title": "Official Action Announcement",
+                    "updatetime": "03-18",
+                    "typeid": 556,
+                    "typename": "NEWS"
+                },
+                {
+                    "aid": 8865,
+                    "title": "Official Action Announcement",
+                    "updatetime": "03-13",
+                    "typeid": 556,
+                    "typename": "NEWS"
+                },
+                {
+                    "aid": 8842,
+                    "title": "Wartune Ultra Patch V2.4 Official Launch",
+                    "updatetime": "02-12",
+                    "typeid": 556,
+                    "typename": "NEWS"
+                },
+                {
+                    "aid": 8836,
+                    "title": "Enjoy Top-up Discount on JollyMax",
+                    "updatetime": "02-08",
+                    "typeid": 556,
+                    "typename": "NEWS"
+                },
+                {
+                    "aid": 8813,
+                    "title": "Official Action Announcement",
+                    "updatetime": "01-08",
+                    "typeid": 556,
+                    "typename": "NEWS"
+                }
+            ]
+        },
+        "list_swiper": [
+            {
+                "title": "Enjoy Top-up Discount on JollyMax",
+                "url": "https://wartunelite.wan.com/article/news/aid/8836.html",
+                "image": "https://static-7.wan.com/Advert/2025/0208/778869.png",
+                "image_big": "https://static-7.wan.com/Advert/2025/0208/994969.png",
+                "description": "Enjoy Top-up Discount on JollyMax"
+            },
+            {
+                "title": "REGISTER NOW",
+                "url": "https://wartunelite.wan.com/events/pre_registration",
+                "image": "https://static-7.wan.com/Advert/2024/0208/412158.png",
+                "image_big": "https://static-7.wan.com/Advert/2024/0208/176195.png",
+                "description": "Pre-Registration for Wartune Ultra Now Open!"
+            },
+            {
+                "title": "FOLLOW US on Social Media for Rewards!",
+                "url": "https://wartunelite.wan.com/article/news/aid/8340.html",
+                "image": "https://static-7.wan.com/ad_gug/20230413/20230413891662.png",
+                "image_big": "https://static-7.wan.com/ad_gug/20230413/202304136228.png",
+                "description": "FOLLOW US on Social Media for Rewards!"
+            },
+            {
+                "title": "R&D Handbook | V1.11 Preview",
+                "url": "https://wartunelite.wan.com/article/news/aid/8560.html",
+                "image": "https://static-7.wan.com/Advert/2024/0402/547268.png",
+                "image_big": "https://static-7.wan.com/Advert/2024/0402/452400.png",
+                "description": "New Castle War Gameplay & Market System"
+            },
+            {
+                "title": "V1.11 Strategy Guides Collection Contest",
+                "url": "https://wartunelite.wan.com/article/news/aid/8571.html",
+                "image": "https://static-7.wan.com/Advert/2024/0412/347277.png",
+                "image_big": "https://static-7.wan.com/Advert/2024/0412/11940.png",
+                "description": "Submit Your Work to Win Rare Items!"
+            },
+            {
+                "title": "R&D Handbook | Recent Highlights & FAQ",
+                "url": "https://wartunelite.wan.com/article/news/aid/8583.html",
+                "image": "https://static-7.wan.com/Advert/2024/0426/837912.png",
+                "image_big": "https://static-7.wan.com/Advert/2024/0426/831124.png",
+                "description": "Recent Highlights & FAQ"
+            }
+        ],
+        "website_basic": {
+            "download_ios": "https://apps.apple.com/us/app/wartune-ultra/id1570085024",
+            "download_android": "https://play.google.com/store/apps/details?id=com.wan.wartuneh5"
+        }
+    }
+}

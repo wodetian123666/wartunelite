@@ -1,0 +1,129 @@
+{
+    "code": 0,
+    "msg": "success",
+    "data": {
+        "list": [
+            {
+                "aid": 8872,
+                "title": "Official Action Announcement",
+                "updatetime": "2025-03-18",
+                "typeid": 556
+            },
+            {
+                "aid": 8865,
+                "title": "Official Action Announcement",
+                "updatetime": "2025-03-13",
+                "typeid": 556
+            },
+            {
+                "aid": 8842,
+                "title": "Wartune Ultra Patch V2.4 Official Launch",
+                "updatetime": "2025-02-12",
+                "typeid": 556
+            },
+            {
+                "aid": 8836,
+                "title": "Enjoy Top-up Discount on JollyMax",
+                "updatetime": "2025-02-08",
+                "typeid": 556
+            },
+            {
+                "aid": 8813,
+                "title": "Official Action Announcement",
+                "updatetime": "2025-01-08",
+                "typeid": 556
+            },
+            {
+                "aid": 8807,
+                "title": "Official Action Announcement",
+                "updatetime": "2025-01-07",
+                "typeid": 556
+            },
+            {
+                "aid": 8798,
+                "title": "Wartune Ultra Patch V2.3 Official Launch",
+                "updatetime": "2025-01-06",
+                "typeid": 556
+            },
+            {
+                "aid": 8787,
+                "title": "JollyMax New Year Celebration Event – Don’t Miss These",
+                "updatetime": "2024-12-23",
+                "typeid": 556
+            },
+            {
+                "aid": 8769,
+                "title": "JollyMax 12.12 Mega Discounts!",
+                "updatetime": "2024-12-11",
+                "typeid": 556
+            },
+            {
+                "aid": 8753,
+                "title": "Wartune Ultra Patch V2.2 Official Launch",
+                "updatetime": "2024-12-02",
+                "typeid": 556
+            },
+            {
+                "aid": 8746,
+                "title": "JollyMax Exclusive Discount & Lucky Draw",
+                "updatetime": "2024-11-19",
+                "typeid": 556
+            },
+            {
+                "aid": 8731,
+                "title": "Wartune Ultra - China Travel Campaign Now Live!",
+                "updatetime": "2024-11-11",
+                "typeid": 556
+            },
+            {
+                "aid": 8716,
+                "title": "Wartune Ultra Patch V2.1.1 Official Launch",
+                "updatetime": "2024-11-04",
+                "typeid": 556
+            },
+            {
+                "aid": 8693,
+                "title": "Wartune Ultra Patch V2.1 Official Launch",
+                "updatetime": "2024-10-08",
+                "typeid": 556
+            },
+            {
+                "aid": 8669,
+                "title": "Patch V1.15 Official Launch",
+                "updatetime": "2024-09-02",
+                "typeid": 556
+            },
+            {
+                "aid": 8646,
+                "title": "Wartune Ultra Patch V1.11.3 Official Launch",
+                "updatetime": "2024-07-29",
+                "typeid": 556
+            },
+            {
+                "aid": 8593,
+                "title": "Level 80 Release!",
+                "updatetime": "2024-05-20",
+                "typeid": 556
+            },
+            {
+                "aid": 8562,
+                "title": "Wartune Ultra Patch V1.11 Official Launch",
+                "updatetime": "2024-04-08",
+                "typeid": 556
+            },
+            {
+                "aid": 8583,
+                "title": "R&D Handbook — Recent Highlights & FAQ",
+                "updatetime": "2024-04-26",
+                "typeid": 556
+            },
+            {
+                "aid": 8571,
+                "title": "V1.11 Strategy Guides Collection Contest",
+                "updatetime": "2024-04-12",
+                "typeid": 555
+            }
+        ],
+        "total": 45
+    }
+}

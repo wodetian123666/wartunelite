@@ -1,0 +1,36 @@
+{
+    "code": 0,
+    "msg": "success",
+    "data": [
+        {
+            "typeid": 558,
+            "typename": "LATEST",
+            "url": "",
+            "lm_title": ""
+        },
+        {
+            "typeid": 556,
+            "typename": "NEWS",
+            "url": "",
+            "lm_title": "NEWS"
+        },
+        {
+            "typeid": 555,
+            "typename": "EVENTS",
+            "url": "",
+            "lm_title": "EVENTS"
+        },
+        {
+            "typeid": 554,
+            "typename": "GUIDES",
+            "url": "",
+            "lm_title": "GUIDES"
+        },
+        {
+            "typeid": 557,
+            "typename": "SUPPORT",
+            "url": "",
+            "lm_title": "SUPPORT"
+        }
+    ]
+}
